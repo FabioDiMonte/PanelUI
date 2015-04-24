@@ -39,4 +39,4 @@ var PUIElementContainer = (function($, PUIElement){
 
     return PUIElementContainer;
 
-}(PUIElement));
+}(jQuery, PUIElement));
