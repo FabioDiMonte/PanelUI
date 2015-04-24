@@ -36,4 +36,4 @@ var PUIPanelComponentGroup = (function($, PUIElement){
 
     return PUIPanelComponentGroup;
 
-}(PUIElement));
+}(jQuery, PUIElement));
