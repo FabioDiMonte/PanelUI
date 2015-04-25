@@ -53,8 +53,9 @@ var PUIMain = (function($, PUINavigation){
 
         changePanel: function(name,velocity) {
 
-            var $next = $('#'+name);
-            var canContinue = this.currentPanel == null || this.currentPanel.attr('id')!=name;
+            var nextId = 'ic-'+name;
+            var $next = $('#'+nextId);
+            var canContinue = this.currentPanel == null || this.currentPanel.attr('id')!=nextId;
 
             if(canContinue) {
                 this.currentPanel && this.currentPanel.fadeOut(velocity);
